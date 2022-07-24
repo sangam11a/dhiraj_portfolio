@@ -1,0 +1,40 @@
+    #own_img{
+        height: 550px;
+        width: 550px;
+        object-fit: cover;
+        border-radius: 50%;
+        transform: translateY(10px);/*60px*/
+    }
+    .abot{
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 12px;
+        color: burlywood;
+        padding-top: 8px;
+    }
+    .about h5 {
+        font-weight: 700;
+        /* transform: translatey(-65px); */
+    }
+    .about h1 {
+        /* color: white; */
+        text-align: center;
+        font-size: 80px;
+        transform: translatey(20px);
+        opacity: 0.1;
+    }
+    .content{
+        display:grid;
+        grid-template-columns: 48% 52%;
+        /* padding-left:2vw;
+        padding-right:1vw; */
+        /* background-image: url(nigt.jpg);
+        background-repeat: no-repeat; */
+    }
+
+@media screen and (max-width:1500px) and (min-width:1024px) {
+    .column-right{
+        transform: translatey(+100px);
+        
+    }
+}
